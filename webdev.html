@@ -4,150 +4,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Development-Vertical Software</title>
-    <link  rel='stylesheet' type='text/css' media='screen' href="bootstrap-5.2.3-dist/css/bootstrap.css">
-    <link  rel='stylesheet' type='text/css' media='screen' href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.css">
     <link  rel='stylesheet' type='text/css' media='screen' href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="Images/ll.png">
 
 </head>
 <body >
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid d-flex justify-content-around">
-          <a class="navbar-brand ">
-            <img src="Images/ll.png" alt="" width="200px" height="90px" class="d-inline-block align-text-top" >
-          </a>
-          <span class="navbar-text text-primary">
-              <i class="fa fa-phone-square" aria-hidden="true"></i>  8390859090  |  
-              <i class="fa fa-envelope-square" aria-hidden="true"></i>   sudhir@verticalsoftware.co.in
-
+  <nav class="navbar navbar-expand-lg sticky-top" style="background-color:rgb(35, 171, 181);">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">
+        <img src="Images/ll.png" alt="" width="150px" height="50px" class="d-inline-block align-text-top" >
+      </a>
+      <span class="navbar-text" style="color: rgb(255, 255, 255);;">
+        |  <i class="fa fa-phone-square" aria-hidden="true"></i>  8390859090  
+        <!-- <i class="fa fa-envelope-square" aria-hidden="true"></i>   sudhir@verticalsoftware.co.in -->
       </span>
-        </div>
-      </nav>
-      <nav class="navbar navbar-expand-lg" style="background-color: rgb(26, 26, 121);">
-        <div class="container-fluid">
-          <a class="navbar-brand text-white" href="#">Services - Web Development</a>
-          <span></span>
+    <button class="navbar-toggler" style="background-color: aliceblue;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item  dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item active" href="webdev.html">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">Mobile App</a></li>
+              <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+              <li><a class="dropdown-item" href="#">E-Commerce Development</a></li>
+              <li><a class="dropdown-item" href="#">Software Services</a></li>
+              <li><a class="dropdown-item" href="#">Internship/Projects</a></li>
+              <li><a class="dropdown-item" href="#">Web Design & Development</a></li>
 
-
-          <button class="navbar-toggler" style="background-color: aliceblue;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" ></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="webdev.html">Web Development</a></li>
-                  <li><a class="dropdown-item" href="#">Mobile App</a></li>
-                  <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
-                  <li><a class="dropdown-item" href="#">E-Commerce Development</a></li>
-                  <li><a class="dropdown-item" href="#">Software Services</a></li>
-                  <li><a class="dropdown-item" href="#">Internship/Projects</a></li>
-                  <li><a class="dropdown-item" href="#">Web Design & Development</a></li>
-
-                  
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 Product
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Hospital Reception Management System</a></li>
-                  <li><a class="dropdown-item" href="#">E-School Management System</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="team.html">Our Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="career.html">Career</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blogging</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Post a Job</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Job Dashboard</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Jobs</a>
-              </li>
               
             </ul>
-          </div>
-        </div>
-      </nav>
-
-
-      <div class="container-web">
-        <img src="Images/1x1.jpg" width="100%" class="img-fluid" style="position: sticky;">
-        <!-- <div class="content">
-          <h1>Our Expertise</h1>
-          <p>Vertical Software helps businesses, enterprises and companies to build a Brand. We enable them to achieve this goal by delivering them relevant content, creative ads, effective social media management and strategies that help to make them a Brand. We also provide personalized Ads campaigns on social media like Facebook and on Google.</p>
-        </div> -->
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Product
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Hospital Reception Management System</a></li>
+              <li><a class="dropdown-item" href="#">E-School Management System</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="career.html">Career</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogging</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Post a Job</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Job Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Jobs</a>
+          </li>
+          
+        </ul>
       </div>
+    </div>
+  </nav>
+
+  
+
+<!-- carousel -->
+<!-- <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="300">
+      <img src="Images/html-css-collage-concept-with-person.jpg" class="d-block w-100 " alt="..." >
+    </div>
+    <div class="carousel-item" data-bs-interval="300">
+      <img src="Images/programming-background-with-person-working-with-codes-computer.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="300">
+      <img src="Images/html-css-collage-concept-with-person.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
+
 
       <!-- bg-gif -->
-<div class="" style="background-image: url(Images/circle.gif); background-repeat: no-repeat; background-size: cover;background-attachment: fixed;">
+<div class="" style="background-image: url(Images/giphy\ \(1\).gif); background-repeat: no-repeat; background-size: cover;background-attachment: fixed;">
+  
+<!-- 
+  <div class="container-fluid p-0">
+    <img src="Images/programming-background-with-person-working-with-codes-computer.jpg" class="web-dev" alt="Snow" style="width:100%;">
+  </div> -->
 
-      <div class="container mt-3 p-2">
-        <h1 class="text-center" style="color: rgb(28, 28, 138);">Our Expertise</h1>
-        <p class=" fs-6" style="text-align: justify;">Vertical Software helps businesses, enterprises and companies to build a Brand. We enable them to achieve this goal by delivering them relevant content, creative ads, effective social media management and strategies that help to make them a Brand. We also provide personalized Ads campaigns on social media like Facebook and on Google.        </p>
+
+  <div class="container-fluid align-items-center " style="background-image: url(Images/focus-software-developer-hands-typing-source-code-keyboard-while-looking-computer-screens-with-programming-interface-programer-sitting-desk-with-clipboard-writing-algorithm.jpg); background-repeat: no-repeat; background-size: cover; width: 100%; height: 600px;">
+   <div class="container">
+    <div class="row p-4">
+      <!-- <div class="col-sm-6 d-flex justify-content-center">                 -->
+        <!-- <img class=" align-self-center p-4" src="Images/web-development-1.gif" width="450px" height="300px"> -->
+      <!-- </div> -->
+      <div class="col-sm-12 p-4 " style="background-color: rgba(0, 0, 0, 0.3);">
+        <h5 style="font-style: italic; text-align: start; color: white;">Web Development - Vertical Software</h5>
+        <h1 class="text-start" style="color: rgb(48, 203, 242); font-weight: bold; text-align: center;">Our Expertise</h1>
+        <p style="color: rgb(255, 255, 255); text-align: justify;font-size: 20px; ">
+          Vertical Software helps businesses, enterprises and companies to build a Brand. We enable them to achieve this goal by delivering them relevant content, creative ads, effective social media management and strategies that help to make them a Brand. We also provide personalized Ads campaigns on social media like Facebook and on Google.
+          <p> 
       </div>
+    </div>
+   </div>
+  </div>
 
-      <div class="container mt-3 p-2">
-        <h1 class="text-center" style="color: rgb(28, 28, 138); ">What is Web Development?</h1>
-            <div class="row ">
+     
+      <div class="container ">
+        <div class="row p-3">
               <div class="col-sm-8 p-3 align-content-center">
-                <!-- <h5>Aim to provide services with quality work and client satisfaction.</h5> -->
-                <p style="text-align: justify; ">Website development means creating your business’s online presence or in simple words creating a 24*7 salesman for your business means Building, Creating, maintaining and updating websites.
+                <h5 style="font-style: italic; text-align: start;">Vertical Software</h5>
+                <h1 class="text-start" style="color: rgb(28, 28, 138); font-weight: bold; text-align: center;">What is Web Development?</h1>
+                <p style="color: grey; text-align: justify;font-size: 20px; ">Website development means creating your business’s online presence or in simple words creating a 24*7 salesman for your business means Building, Creating, maintaining and updating websites.
                     It includes creating a responsive and effective design that will attract your customer to your website.<p> 
-                <p> Website development is also known as Web development, while the professionals that maintain a website are called Web Developers.
+                <p style="color: grey; text-align: justify; font-size: 20px;"> Website development is also known as Web development, while the professionals that maintain a website are called Web Developers.
                     In this internet era, the website for your business is very important and helps to reach more customers.</p>
               </div>
-              <div class="col-sm-4 p-3 d-flex justify-content-center">                
-                <img class=" align-self-center" src="Images/Web-Development-Connecticut-1-1536x922.jpg" width="400px" height="300px">
+              <div class="col-sm-4 d-flex justify-content-center">                
+                <img class=" align-self-center p-4" src="Images/web-development-1.gif" width="450px" height="300px">
               </div>
             </div>
         </div>
 
-        <div class="container mt-3 p-2">
-            <h1 class="text-center" style="color: rgb(28, 28, 138);">What makes a company great?</h1> 
-                <p class="text-center" style="color: rgb(0, 0, 0);">That’s simple. It’s the people who work here.</p>
-            <div class="mt-2 p-2">    
-            <h3>Custom Web Development</h3>
-            <p class=" fs-6" style="text-align: justify;">
-                This service is required, when you have very specific need or wanted to build a solution which is very core and unique towards solving your business needs. Although every business is unique in terms of mind sets and type of customer you have.
-            </p>
-            <p>
-                On what basis you can choose for this service
-                <ul>
-                    <li>Just schedule a call with us and we will be happy to assist you</li>
-                    <li>Do a market research or just google to see if there are some SaaS based products available</li>
-                </ul>
-            </p>
+        <div class="container mb-3 p-2">
+          <div class="row p-3">
+            <div class="col-sm-4 p-4 d-flex justify-content-center">                
+              <img class=" align-self-center p-3" src="Images/team-work-1.png" width="400px" height="400px">
             </div>
+                <div class="col-sm-8 p-3 align-content-center">
+                  <h5 style="font-style: italic; text-align: start;">Vertical Software</h5>
+                  <h1 class="text-start" style="color: rgb(28, 28, 138); font-weight: bold; text-align: center;">What makes a company great?</h1>
+                  <h3 class="fw-bold">Custom Web Development</h3>
+                      <p class="" style="color: grey; text-align: justify;font-size: 20px;">
+                          This service is required, when you have very specific need or wanted to build a solution which is very core and unique towards solving your business needs. Although every business is unique in terms of mind sets and type of customer you have.
+                      </p>
+                      <p style="color: grey; text-align: justify;font-size: 20px;">
+                          On what basis you can choose for this service
+                          <ul style="color: grey; text-align: justify;font-size: 20px;">
+                              <li>Just schedule a call with us and we will be happy to assist you</li>
+                              <li>Do a market research or just google to see if there are some SaaS based products available</li>
+                          </ul>
+                      </p>      
+                </div>
+                
+              </div>
           </div>
+
+
+      
 </div>
 
 <!-- Footer -->
-<footer class="page-footer font-small mdb-color pt-4" style="background-color: rgb(23, 23, 127);">
+<footer class="page-footer font-small mdb-color pt-4" style="background-color:  rgb(35, 171, 181);">
 
   <!-- Footer Links -->
   <div class="container text-center text-md-left">
@@ -215,15 +250,22 @@
       <!-- Grid column -->
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" style="color: rgb(252, 252, 252);">
         <h6 class="text-uppercase  font-weight-bold fs-5">ADDRESS</h6>
-        <p style="text-align: center;" style="text-align: justify;">
+        <a href="https://maps.app.goo.gl/n6ns5ZcHsgc3uMVX9" class="text-white" style="text-decoration: none;">
+          <p style="text-align: center;" style="text-align: justify;">
           <i class="fa fa-thumb-tack" aria-hidden="true"></i>
           Shaji Raje Bhosle Nagar, Datta Krupa Building, 3rd Floor, Near Sahyadri Hospital, Behind Post Office , Hadapsar , Pune -411028
           </p>
+        </a>
+        <a href="mailto:sonawanesaloni27@gmail.com" style="text-decoration: none ; color: rgb(252, 252, 252);">
         <p>
-          <i class="fa fa-envelope" aria-hidden="true"></i> sudhir@verticalsoftware.co.in</p>
+          <i class="fa fa-envelope" aria-hidden="true"></i> sudhir@verticalsoftware.co.in
+        </p>
+        </a>
+        <a href="tel:7057391783" style="text-decoration: none; color: rgb(252, 252, 252);">
         <p>
-          <i class="fa fa-phone" aria-hidden="true"></i> +918390859090</p>
-        
+          <i class="fa fa-phone" aria-hidden="true"></i> +918390859090
+        </p>
+        </a>
       </div>
       <!-- Grid column -->
 

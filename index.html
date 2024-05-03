@@ -4,105 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Vertical Software</title>
-    <link  rel='stylesheet' type='text/css' media='screen' href="bootstrap-5.2.3-dist/css/bootstrap.css">
-    <link  rel='stylesheet' type='text/css' media='screen' href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="Images/ll.png">
 </head>
 <body >
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid d-flex justify-content-around">
-          <a class="navbar-brand ">
-            <img src="Images/ll.png" alt="" width="200px" height="90px" class="d-inline-block align-text-top" >
-          </a>
-          <span class="navbar-text text-primary">
-              <i class="fa fa-phone-square" aria-hidden="true"></i>  8390859090  |  
-              <i class="fa fa-envelope-square" aria-hidden="true"></i>   sudhir@verticalsoftware.co.in
+  <!-- <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid d-flex justify-content-around">
+      <a class="navbar-brand ">
+         <img src="Images/ll.png" alt="" width="150px" height="90px" class="d-inline-block align-text-top" >
+      </a>
+      <span class="navbar-text" style="color: rgb(26, 26, 121);;">
+          <i class="fa fa-phone-square" aria-hidden="true"></i>  8390859090  |  
+          <i class="fa fa-envelope-square" aria-hidden="true"></i>   sudhir@verticalsoftware.co.in
 
+  </span>
+    </div>
+  </nav> -->
+  <nav class="navbar navbar-expand-lg sticky-top" style="background-color:rgb(35, 171, 181);">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">
+        <img src="Images/ll.png" alt="" width="150px" height="50px" class="d-inline-block align-text-top" >
+      </a>
+      <span class="navbar-text" style="color: rgb(255, 255, 255);;">
+        |  <i class="fa fa-phone-square" aria-hidden="true"></i>  8390859090  
+        <!-- <i class="fa fa-envelope-square" aria-hidden="true"></i>   sudhir@verticalsoftware.co.in -->
       </span>
-        </div>
-      </nav>
-      <nav class="navbar navbar-expand-lg" style="background-color: rgb(26, 26, 121);">
-        <div class="container-fluid">
-          <a class="navbar-brand text-white" href="#">Home</a>
-          <span></span>
+    <button class="navbar-toggler" style="background-color: aliceblue;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="webdev.html">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">Mobile App</a></li>
+              <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+              <li><a class="dropdown-item" href="#">E-Commerce Development</a></li>
+              <li><a class="dropdown-item" href="#">Software Services</a></li>
+              <li><a class="dropdown-item" href="#">Internship/Projects</a></li>
+              <li><a class="dropdown-item" href="#">Web Design & Development</a></li>
 
-
-          <button class="navbar-toggler" style="background-color: aliceblue;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" ></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="webdev.html">Web Development</a></li>
-                  <li><a class="dropdown-item" href="#">Mobile App</a></li>
-                  <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
-                  <li><a class="dropdown-item" href="#">E-Commerce Development</a></li>
-                  <li><a class="dropdown-item" href="#">Software Services</a></li>
-                  <li><a class="dropdown-item" href="#">Internship/Projects</a></li>
-                  <li><a class="dropdown-item" href="#">Web Design & Development</a></li>
-
-                  
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 Product
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Hospital Reception Management System</a></li>
-                  <li><a class="dropdown-item" href="#">E-School Management System</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="team.html">Our Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="career.html">Career</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blogging</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Post a Job</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Job Dashboard</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Jobs</a>
-              </li>
               
             </ul>
-          </div>
-        </div>
-      </nav>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Product
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Hospital Reception Management System</a></li>
+              <li><a class="dropdown-item" href="#">E-School Management System</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="career.html">Career</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogging</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Post a Job</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Job Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Jobs</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
 
       <!-- carousel -->
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="1000">
-            <img src="Images/web-design-concepts-with-blurred-background.jpg" class="d-block w-100" alt="..." >
+          <div class="carousel-item active" data-bs-interval="300">
+            <img src="Images/Screenshot 2024-05-01 115458.png" class="d-block w-100 " alt="..." >
           </div>
-          <div class="carousel-item" data-bs-interval="1000">
-            <img src="Images/magnifying-glass-with-seo-concepts.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item" data-bs-interval="300">
+            <img src="Images/Screenshot 2024-05-01 115551.png" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item">
-            <img src="Images/marketing-online-strategy-with-drawings.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item" data-bs-interval="300">
+            <img src="Images/Screenshot 2024-05-01 115430.png" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -115,239 +117,261 @@
         </button>
       </div>
 
+      <!-- hero section -->
+      <!-- <div class="">
+        <img src="Images/operation-process-performance-development-icon.jpg " class="img-fluid" alt="...">
+      </div> -->
+
 
 <!-- bg-gif -->
-<div class="" style="background-image: url(Images/circle.gif); background-repeat: no-repeat; background-size: cover;background-attachment: fixed;">
+<div class="" style="background-image: url(Images/giphy\ \(1\).gif); background-repeat: no-repeat; background-size: cover;background-attachment: fixed;">
       <!--  -->
       <div class="container">
-        <div class="row align-items-center mt-4 p-3" >
-          <div class="col-sm-8 p-3">
-            <h1 style="color: rgb(28, 28, 138);">We Build Scalable, Customer-centric, Robust Software & Apps</h1>
-            <h5>Aim to provide services with quality work and client satisfaction.</h5>
-                <p>Vertical Software is a one-stop solution for all design, development, technology consulting & digital solution’s needs that brings innovative resolutions to the business hick-ups.</p>
+        <div class="row align-items-center mt-4 p-3 text-start" >
+          <div class="col-sm-6 p-3">
+            <img src="Images/Screenshot 2024-05-01 203636.png" class="img-fluid rounded-1" alt="...">
           </div>
-          <div class="col-sm-4 p-3">                
-            <img class="img-fluid align-self-center" src="Images/growth.gif" width="400px">
+          <div class="col-sm-6 p-3">
+            <h5 style="font-style: italic;">Welcome to the Vertical Software</h5>
+            <h1 style="color: rgb(39, 31, 141); font-weight: bold; text-align: start;">We Build Scalable,<br> Customer-centric, Robust Software & Apps</h1>
+                <h5 class="" style="color: grey; text-align: justify; font-size: 20px;">Vertical Software is a one-stop solution for all design, development, technology consulting  & digital solution’s needs that brings innovative resolutions to the business hick-ups.
+                <p>Since 2009, Vertical Software has been creating and delivering quality solutions. Vertical Software helps businesses automate their complex business processes into simplified software applications. Whether you need; end to end Stock Management Services, Billing Solutions, Document management or Business Process Automation; Vertical Software Solutions can tailor a solution to meet your individual business needs. </p>
           </div>
-        </div>
-      </div>
-      
-
-<!-- software services -->
-      <div class="container mb-5 p-3 ">
-        <h1 class="text-center" style="color: rgb(28, 28, 138);">Software Services</h1>
-        <p class="text-center">We provide professional services in Business Process Automation and providing training and certification.</p>
-        <div class="container text-lg-center">
-          <div class="row ">
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/operation-process-performance-development-icon.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Web Application</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/1649140977382.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Custom Software Development</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/ASP.NET-dev.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Java,PHP,ASP.NET Development</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-
-<!-- web development -->
-      <div class="container mb-5 p-3" >
-        <h1 class="text-center" style="color: rgb(28, 28, 138);">Web Development</h1>
-        <p class="text-center ">Converting your website visitors to Customers. VS work together to put life to your ideas.        </p>
-        <div class="container text-lg-center">
-          <div class="row ">
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/webdesign.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Professional Web Design</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/web-portal-development.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Web Portal Development </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/header-background.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Web Based Software Application                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
 
-      <!--Ecommerce development  -->
-
-
-      <div class="container mb-5 p-3">
-        <h1 class="text-center" style="color: rgb(28, 28, 138);">E-Commerce Development</h1>
-        <p class="text-center">We provide User friendly and fully integrated online E-commerce solutions.</p>
-        <div class="container text-lg-center">
-          <div class="row ">
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/E-Commerce-Development-Bloom-IT.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Professional Web Design</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/Ecommerce-development-company.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">E-Web Portal Development</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/full-stack-accelerates-your-e-commerce-development.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Web Based Software Application</p>
-                </div>
-              </div>
-            </div>
+<div class="container">
+  <div class="row  mt-4 p-3">
+    <div class="col-sm-6 align-content-center heading" style="text-align: justify;">
+      <h5 style="font-style: italic;">Vertical Software</h5>
+      <h1 id="div2" style="color: rgb(28, 28, 138) ; font-weight: bold;" id="animate" >Software Services</h1>
+      <h5 class="text-start" style="color: gray;">We provide professional services in Business Process Automation and providing training and certification.</h5>
+      <ul  style="color: gray; font-size: 20px;">
+        <li>Web Application</li>
+        <li>Custom Software Development</li>
+        <li>Java,PHP,ASP.NET Development</li>
+      </ul>
+    </div>
+    <div class="col-sm-6">
+      <div class="container text-center">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row p-2">
+          <div class="col-sm-8 p-2">
+            <img src="Images/operation-process-performance-development-icon.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-sm-4 p-2 align-content-end">
+            <img src="Images/1649140977382.png" class="img-fluid " alt="...">
+          </div>
+        </div>   
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row p-2">
+          <div class="col-sm-4 p-2">
+            <img src="Images/ASP.NET-dev.png" class="img-fluid" alt="...">
+          </div>
+          <div class="col-sm-8 p-2">
+            <img src="Images/webdesign.jpg " class="img-fluid" alt="...">
           </div>
         </div>
-        </div>
+      </div>
+    </div>
     
-
-
-      <!-- mobile appli -->
-      <div class="container mb-5 p-3" >
-        <h1 class="text-center " style="color: rgb(28, 28, 138);">Mobile Application Development</h1>
-        <p class="text-center">Our skilled team develops mobile phone application based on your requirements using all the features of the Phone        </p>
-        <div class="container text-lg-center">
-          <div class="row ">
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/mobile-app-development-methodologies.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Mobile Development                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/Mobile-App-Development-Process-Banner.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Mobile Apps Development                    t</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/mobile-app-development.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">IOS, Android App Development                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-  
-
-      <!-- Responsive web design -->
-
-      <div class="container mb-5 p-3" >
-        <h1 class="text-center" style="color: rgb(28, 28, 138);">Responsive Web Design And Development</h1>
-        <p class="text-center">Converting your website visitors to Customers. VS work together to put life to your ideas.        </p>
-        <div class="container text-lg-center">
-          <div class="row ">
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/60fa93df2b2cb778247297.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Web Portal Development                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/1_Aey5IIPWNOVrrrCQBEAl8A.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Web Based Software Application                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/1-cover-768x401-1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Customized ERP Development                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-    
-
-      <!-- Internship -->
-      <div class="container mb-5 p-3" >
-        <h1 class="text-center " style="color: rgb(28, 28, 138);">Internship/Projects</h1>
-        <p class="text-center ">We provide User friendly and fully integrated online E-commerce solutions.        </p>
-        <div class="container text-lg-center">
-          <div class="row ">
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/synopsis writing service.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Project Synopsis & document.                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/istockphoto-520937558-612x612.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Programming Demo.                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mt-5" style="width: 18rem;">
-                <img src="Images/what’s-the-best-programming-language-to-learn-first.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text text-center">Programming Lang sessions.                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
+  </div>
 </div>
 
+
+<div class="container">
+  <div class="row  mt-4 p-3">
+       <div class="col-sm-6">
+      <div class="container text-center">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row p-2">
+          <div class="col-sm-8 p-2">
+            <img src="Images/webdesign.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-sm-4 p-2 align-content-end">
+            <img src="Images/web-portal-development.jpg" class="img-fluid " alt="...">
+          </div>
+        </div>   
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row p-2">
+          <div class="col-sm-4 p-2">
+            <img src="Images/header-background.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-sm-8 p-2">
+            <img src="Images/Web-Development-Connecticut-1-1536x922.jpg" class="img-fluid" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 align-content-center" style="text-align: justify;">
+      <h5 style="font-style: italic;">Vertical Software</h5>
+      <h1 class="text-start" style="color: rgb(28, 28, 138) ; font-weight: bold">Web Development</h1>
+      <h5 class="text-start" style="color: gray;">Converting your website visitors to Customers. VS work together to put life to your ideas.</h5>
+      <ul  style="color: gray; font-size: 20px;">
+        <li>Professional Web Design</li>
+        <li>Web Portal Development</li>
+        <li>Web Based Software Application</li>
+      </ul>
+    </div>
+  </div>
+</div>
+      
+<div class="container">
+  <div class="row  mt-4 p-3">
+    <div class="col-sm-6 align-content-center" style="text-align: justify;">
+      <h5 style="font-style: italic;">Vertical Software</h5>
+      <h1 class="text-start" style="color: rgb(28, 28, 138) ; font-weight: bold">E-Commerce Development</h1>
+      <h5 class="text-start" style="color: gray;">We provide User friendly and fully integrated online E-commerce solutions.</h5>
+      <ul  style="color: gray; font-size: 20px;">
+        <li>Professional Web Design</li>
+        <li>E-Web Portal Development</li>
+        <li>Web Based Software Application</li>
+      </ul>
+    </div>
+    <div class="col-sm-6">
+      <div class="container text-center">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row p-2">
+          <div class="col-sm-8 p-2">
+            <img src="Images/E-Commerce-Development-Bloom-IT.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-sm-4 p-2 align-content-end">
+            <img src="Images/Ecommerce-development-company.png" class="img-fluid " alt="...">
+          </div>
+        </div>   
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row p-2">
+          <div class="col-sm-4 p-2">
+            <img src="Images/full-stack-accelerates-your-e-commerce-development.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-sm-8 p-2">
+            <img src="Images/e-commerce-digital-internet-technology-web-concept.jpg" class="img-fluid" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<div class="container">
+  <div class="row  mt-4 p-3">
+       <div class="col-sm-6">
+      <div class="container text-center">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row p-2">
+          <div class="col-sm-8 p-2">
+            <img src="Images/mobile-app-development-methodologies.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-sm-4 p-2 align-content-end">
+            <img src="Images/Mobile-App-Development-Process-Banner.jpg" class="img-fluid " alt="...">
+          </div>
+        </div>   
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row p-2">
+          <div class="col-sm-4 p-2">
+            <img src="Images/mobile-application-development-guidelines-riseuplabs.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-sm-8 p-2">
+            <img src="Images/mobile-app-development.jpg" class="img-fluid" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 align-content-center" style="text-align: justify;">
+      <h5 style="font-style: italic;">Vertical Software</h5>
+      <h1 class="text-start" style="color: rgb(28, 28, 138) ; font-weight: bold">Mobile Application Development Development</h1>
+      <h5 class="text-start" style="color: gray;">Our skilled team develops mobile phone application based on your requirements using all the features of the Phone </h5>
+      <ul  style="color: gray; font-size: 20px;">
+        <li>Mobile Development</li>
+        <li>Mobile App Development</li>
+        <li>IOS, Android App Development</li>
+      </ul>
+    </div>
+  </div>
+</div>
+      
+<div class="container">
+  <div class="row  mt-4 p-3">
+    <div class="col-sm-6 align-content-center" style="text-align: justify;">
+      <h5 style="font-style: italic;">Vertical Software</h5>
+      <h1 class="text-start" style="color: rgb(28, 28, 138) ; font-weight: bold">Responsive Web Design And Development</h1>
+      <h5 class="text-start" style="color: gray;">Converting your website visitors to Customers. VS work together to put life to your ideas.</h5>
+      <ul  style="color: gray; font-size: 20px;">
+        <li>Web Portal Development</li>
+        <li>Web Based Software Application </li>
+        <li>Customized ERP Development</li>
+      </ul>
+    </div>
+    <div class="col-sm-6">
+      <div class="container text-center">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row p-2">
+          <div class="col-sm-8 p-2">
+            <img src="Images/60fa93df2b2cb778247297.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-sm-4 p-2 align-content-end">
+            <img src="Images/1_Aey5IIPWNOVrrrCQBEAl8A.png" class="img-fluid " alt="...">
+          </div>
+        </div>   
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row p-2">
+          <div class="col-sm-4 p-2">
+            <img src="Images/1-cover-768x401-1.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-sm-8 p-2">
+            <img src="Images/responsive-design-layout-software-concept.jpg" class="img-fluid" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+     
+<div class="container">
+  <div class="row  mt-4 mb-3 p-3">
+       <div class="col-sm-6">
+      <div class="container text-center">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row p-2">
+          <div class="col-sm-8 p-2">
+            <img src="Images/synopsis writing service.png" class="img-fluid" alt="...">
+          </div>
+          <div class="col-sm-4 p-2 align-content-end">
+            <img src="Images/istockphoto-520937558-612x612.jpg" class="img-fluid " alt="...">
+          </div>
+        </div>   
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row p-2">
+          <div class="col-sm-4 p-2">
+            <img src="Images/what’s-the-best-programming-language-to-learn-first.png" class="img-fluid" alt="...">
+          </div>
+          <div class="col-sm-8 p-2">
+            <img src="Images/document-marketing-strategy-business-concept.jpg" class="img-fluid" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 align-content-center" style="text-align: justify;">
+      <h5 style="font-style: italic;">Vertical Software</h5>
+      <h1 class="text-start" style="color: rgb(28, 28, 138) ; font-weight: bold">Internship/Projects</h1>
+      <h5 class="text-start" style="color: gray;">We provide User friendly and fully integrated online E-commerce solutions. </h5>
+      <ul  style="color: gray; font-size: 20px;">
+        <li>Project Synopsis & document.</li>
+        <li>Programming Demo.</li>
+        <li>Programming Lang sessions.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+    
+  
+
 <!-- Footer -->
-<footer class="page-footer font-small mdb-color pt-4" style="background-color: rgb(23, 23, 127);">
+<footer class="page-footer font-small mdb-color pt-4" style="background-color: rgb(35, 171, 181)">
 
   <!-- Footer Links -->
   <div class="container text-center text-md-left">
@@ -412,20 +436,27 @@
 
    
 
-      <!-- Grid column -->
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" style="color: rgb(252, 252, 252);">
-        <h6 class="text-uppercase  font-weight-bold fs-5">ADDRESS</h6>
+     <!-- Grid column -->
+     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" style="color: rgb(252, 252, 252);">
+      <h6 class="text-uppercase  font-weight-bold fs-5">ADDRESS</h6>
+      <a href="https://maps.app.goo.gl/n6ns5ZcHsgc3uMVX9" class="text-white" style="text-decoration: none;">
         <p style="text-align: center;" style="text-align: justify;">
-          <i class="fa fa-thumb-tack" aria-hidden="true"></i>
-          Shaji Raje Bhosle Nagar, Datta Krupa Building, 3rd Floor, Near Sahyadri Hospital, Behind Post Office , Hadapsar , Pune -411028
-          </p>
-        <p>
-          <i class="fa fa-envelope" aria-hidden="true"></i> sudhir@verticalsoftware.co.in</p>
-        <p>
-          <i class="fa fa-phone" aria-hidden="true"></i> +918390859090</p>
-        
-      </div>
-      <!-- Grid column -->
+        <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+        Shaji Raje Bhosle Nagar, Datta Krupa Building, 3rd Floor, Near Sahyadri Hospital, Behind Post Office , Hadapsar , Pune -411028
+        </p>
+      </a>
+      <a href="mailto:sonawanesaloni27@gmail.com" style="text-decoration: none ; color: rgb(252, 252, 252);">
+      <p>
+        <i class="fa fa-envelope" aria-hidden="true"></i> sudhir@verticalsoftware.co.in
+      </p>
+      </a>
+      <a href="tel:7057391783" style="text-decoration: none; color: rgb(252, 252, 252);">
+      <p>
+        <i class="fa fa-phone" aria-hidden="true"></i> +918390859090
+      </p>
+      </a>
+    </div>
+    <!-- Grid column -->
 
     </div>
     <!-- Footer links -->
@@ -493,6 +524,4 @@
 </body>
 <script src="bootstrap-5.2.3-dist/js/bootstrap.js"></script>
 <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> -->
-
 </html>
